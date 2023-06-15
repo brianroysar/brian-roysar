@@ -7,14 +7,10 @@
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
-    
+
     background-color: transparent;
-    border: 3px solid #000000;
+    /* border: 3px solid #000000; */
     margin-top: 1%;
-  }
-  
-  .navbar-brand {
-    font-weight: bold;
   }
   
   .navbar-toggle {
@@ -27,25 +23,25 @@
     margin-right: 150px;
     display: flex;
     list-style: none;
+    position: fixed;
+    right:0;
   }
   
   .navbar-item {
     margin-left: 80px;
     cursor: pointer;
+    
 
     font-family: 'Montagu Slab', serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
-    /* or 200% */
     
-
     letter-spacing: 0.10em;
   }
 
   .navbar-item-BR {
     margin-left: 70px;
-    margin-right: 100%;
     cursor: pointer;
 
     font-family: 'Montagu Slab', serif;

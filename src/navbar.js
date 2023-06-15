@@ -5,13 +5,15 @@ import { BrowserRouter as Router, Routes, Link } from "react-router-dom";
 const Navbar = () => {
 	return (
 		<nav className="navbar">
-			<button className="navbar-toggle"></button>
+			{/* <button className="navbar-toggle"></button> */}
+			<div className="navbar-item-BR">
+				<Link className="nav-link" to="/">
+					BR
+				</Link>
+			</div>
+
 			<ul className="navbar-menu">
-				<li className="navbar-item-BR">
-					<Link className="nav-link" to="/">
-						BR
-					</Link>
-				</li>
+				{/* <li className="navbar-item-BR"></li> */}
 				<li className="navbar-item">
 					<Link className="nav-link" to="/experience">
 						EXPERIENCE
