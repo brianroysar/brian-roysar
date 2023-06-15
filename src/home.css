@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Montagu+Slab:wght@100;200;300;400;500;600;700&display=swap');
+
+.main-page {
+    position: fixed;    
+    width: calc(100vw - 50px);
+  height: calc(100vh - 50px);
+  margin: 25px;
+  border-radius: 10px;
+    /* border: 3px solid #000000; */
+}
+
+.center-card{
+    display: flex;
+
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* border: 3px solid #000000; */
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic{
+    box-sizing: border-box;
+    position: relative;
+    width: 437.93px;
+    height: 436.68px;
+    /* left: 264.72px;
+    top: 340.16px; */
+    /* background: url(62D4735E-A2A1-4574-8E9D-02E543415A9B.jpg); */
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.blurb-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: relative;
+    width: 673.46px;
+    left: 100px;
+    /* top: 317px; */
+    margin-top: 75px;
+}
+
+.blurb-box > * {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    /* padding-top: 12px; */
+    padding-bottom: 10px;
+    /* border: 3px solid #000000; */
+
+}
+
+.welcome-message{
+    width: 558.62px;
+    height: 56px;
+
+    font-family: 'Barrio', sans-serif;
+    font-weight: 400;
+    color: transparent;
+    -webkit-text-stroke: 2px black; /* For Safari/Chrome */
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: 0.2em;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.brian-roysar-name{
+    width: 673.46px;
+    height: 77.85px;
+
+    font-family: 'Montagu Slab', serif;
+    font-weight: 400;
+    font-size: 70px;
+    display: flex;
+    letter-spacing: 0.07em;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.blurb{
+    width: 634.05px;
+height: 127.58px;
+
+font-family: 'Montagu Slab', serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+/* or 200% */
+
+letter-spacing: 0.07em;
+
+color: #323232;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+html, body {
+    height: 100%;
+    position: relative;
+
+    background: #EDE6D4;
+}

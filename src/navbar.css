@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Montagu+Slab:wght@100;200;300;400;500;600;700&display=swap');
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    
+    background-color: transparent;
+    /* border: 3px solid #000000; */
+    margin-top: 10px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar-menu {
+    margin-right: 150px;
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar-item {
+    margin-left: 80px;
+    cursor: pointer;
+
+    font-family: 'Montagu Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 200% */
+    
+
+    letter-spacing: 0.10em;
+  }
+
+  .navbar-item-BR {
+    margin-left: 40px;
+    margin-right: 100%;
+    cursor: pointer;
+
+    font-family: 'Montagu Slab', serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 40px;
+    /* or 200% */
+    
+
+    letter-spacing: 0.0em;
+  }
+  .nav-link {
+    text-decoration: none;
+  }
+
+  .nav-link:visited {
+    text-decoration: none;
+    color: inherit;
+  }
